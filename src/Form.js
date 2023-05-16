@@ -41,6 +41,7 @@ export default function App(props) {
 
 
   const criarRegistro = (e) => {
+    props.fecharPainel('modificado')
     fetch('http://localhost:3001/comments', {
   method: 'POST',
   body: JSON.stringify({
@@ -53,9 +54,7 @@ export default function App(props) {
   },
 })
   .then((response) => response.json())
-  .then(() => {
-    props.fecharPainel()
-  })
+  .then((json) => props.fecharPainel('modificado'))
 
   }
 
