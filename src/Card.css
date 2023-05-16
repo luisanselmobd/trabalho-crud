@@ -1,0 +1,38 @@
+.card {
+    display: flex;
+    align-items: center;
+    height: max-content;
+    width: 80vw;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    gap: 1rem;
+    box-shadow: 10px 6px 18px -7px rgba(0,0,0,0.46);
+  }
+  .textosCartao {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .conteudoCartao {
+    display: flex;
+    margin: 0;
+  }
+  .nome {
+    
+  }
+  .email {
+    
+  }
+  .mensagem {
+    width: 100%;
+  }
+  
+  .acoesCartao {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    flex: 1;
+  }

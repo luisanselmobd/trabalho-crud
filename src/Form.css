@@ -1,0 +1,25 @@
+.painel {
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.form {
+    width: 80vw;
+    heigth: 20vh;
+    background-color: white;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.camposForm {
+    padding-bottom: 1rem;
+}
+
+.camposForm:last-child {
+    align-items: center;
+}
